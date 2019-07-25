@@ -1,0 +1,36 @@
+{
+  "name": "etherscan-quorum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node sync/cronSync.js | node app.js",
+    "sync": "node sync/sync.js",
+    "test": "mocha **/tests/*.test.js",
+    "test-batch": "nodemon --exec 'npm test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobodyme/etherscan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nobodyme/etherscan/issues"
+  },
+  "homepage": "https://github.com/nobodyme/etherscan#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16",
+    "node-cron": "^2.0.3",
+    "web3": "^1.0.0-beta.46"
+  },
+  "devDependencies": {
+    "expect": "^24.5.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.2"
+  }
+}

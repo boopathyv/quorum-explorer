@@ -1,0 +1,50 @@
+.footer{
+	background-image: linear-gradient(150deg,#19a0ff,#2d1582);
+	background-repeat: repeat-x;
+	min-height: 150px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: var(--footer-font-color);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	/* margin-top: 20px; */
+}
+
+.footer__header{
+	width: 25%;
+}
+
+.footer__header__title{
+	font-size: 1.2rem;
+}
+
+.footer__header__text{
+	font-size: 0.75rem;
+	line-height: 1.7;
+	width: 350px;
+}
+
+.footer__company{
+	width: 16.66667%
+}
+
+.footer__social{
+	width: 16.66667%
+}
+
+.footer__line {
+	opacity: 0.15;
+}
+
+.footer__link{
+	color: var(--footer-link-color); 
+	padding-top: 10px;
+	display: block;
+	text-decoration: none;
+}
+
+.footer__link:hover{
+	color: var(--footer-font-color);
+}

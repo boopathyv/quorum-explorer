@@ -1,0 +1,13 @@
+.header{
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo{
+	font-family: 'DM Serif Display', serif;
+	font-size: 2rem;
+	color: var(--header-logo-font-color);
+	text-decoration: none;
+}

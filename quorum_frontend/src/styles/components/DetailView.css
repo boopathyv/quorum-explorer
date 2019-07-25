@@ -1,0 +1,49 @@
+.detailView__page__title{
+	font-weight: 400;
+	padding: 0.8rem 0;
+}
+
+.detailView__page__title__primary{
+	font-size: 1.25rem;
+}
+
+.detailView__page__title__primary::first-letter{
+	text-transform: capitalize;
+}
+
+.detailView__page__title__secondary{
+	font-size: 1rem;
+	color: var(--secondary-font-color);
+}
+
+.detailView__card__content{
+	padding: 10px;
+}
+
+.detailView__card__item{
+	display: flex;
+	padding: 0.25rem 0;
+}
+
+.detailView__item__name{
+	flex: 1;
+}
+
+.detailView__item__value{
+	flex: 4;
+}
+
+.detailView__item__value > a {
+	color: var(--font-link-color);
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.detailView__item__value > a:hover {
+	color: var(--hover-link-color);
+}
+
+.detailView__line {
+	margin-top: 0.7rem;
+	margin-bottom: 0.7rem;
+}

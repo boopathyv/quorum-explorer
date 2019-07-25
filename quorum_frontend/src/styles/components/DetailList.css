@@ -1,0 +1,32 @@
+.detailList__title{
+	font-weight: 400;
+	padding: 0.8rem 0;
+	font-size: 1.25rem;
+}
+
+.detailList__pagination__loading{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.detailList__table{
+	display: grid;
+	padding: 10px 10px 1px 10px;
+}
+
+.detailList__col{
+	background: var(--table-header-bg);
+	padding: 0.8rem 0;
+	font-weight: bold;
+	color: var(--font-color);
+	border-bottom: 1px solid var(--border-color);
+	border-top: 1px solid var(--border-color);
+}
+
+.detailList__pagination__container{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+}

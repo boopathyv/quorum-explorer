@@ -1,0 +1,10 @@
+{
+	"development": {
+		"providerUrl": "some infura url or locally run ethereum node's url or quorum node's url",
+		"mongoUrl": "mongodb://127.0.0.1:27017/ethereumexplorer"
+	},
+	"test": {
+		"providerUrl": "some infura url or locally run ethereum node's url or quorum node's url",
+		"mongoUrl": "mongodb://127.0.0.1:27017/testethereumexplorer"
+	}
+}

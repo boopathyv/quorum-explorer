@@ -1,0 +1,35 @@
+.dashboard__stats{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 20px;
+}
+
+.dashboard__blocks {
+	display: flex;
+}
+
+.dashboard__transactions {
+	display: flex;
+}
+
+.dashboard__contracts {
+	display: flex;
+}
+
+.dashboard__name {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 5px 10px;
+}
+
+.dashboard__value{
+	font-weight: 500%;
+	color: black;
+	font-size: 1rem;
+}
+
+.dashboard__key{
+	color: var(--secondary-font-color);
+	font-size: 0.6rem;
+}
